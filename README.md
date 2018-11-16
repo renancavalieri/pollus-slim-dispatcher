@@ -1,5 +1,5 @@
 # Pollus - Slim Dispatcher
-O pacote `pollus/slim-dispatcher` é um Dispatcher de Controllers para a Slim Framework 3 que possibilita a implantação de rotas genéricas. 
+O pacote `pollus/slim-dispatcher` é um dispatcher de controllers para a Slim Framework 3 que possibilita a implementação de rotas genéricas. 
 
 **Instalação:**
 > composer require pollus/slim-dispatcher
