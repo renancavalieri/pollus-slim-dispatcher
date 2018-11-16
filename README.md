@@ -47,7 +47,7 @@ class ProdutosController extends Controller
      * Você pode determinar quais requisições são suportadas
      * para este método. Caso uma requisição não seja suportada
      * uma excessão MethodNotAllowedException será lançada,
-     * fazendo com que a Slim Framework resposta com um erro 
+     * fazendo com que a Slim Framework responda com um erro 
      * HTTP (405) contendo os métodos permitidos.
      * 
      * @method GET
