@@ -107,4 +107,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ----
-**Aviso**: Esta documentação está incompleta! Ainda falta uma lista dos métodos disponíveis e mais exemplos.
+**Aviso**: Esta documentação está incompleta! Ainda faltam uma lista dos métodos disponíveis, mais exemplos e uma documentação em inglês! 
