@@ -28,9 +28,16 @@ class AnnotationReader implements AnnotationReaderInterface
     /**
      * {@inheritDoc}
      */
-    public function __construct(string $className, ?string $name, ?string $type)
+    public function __construct(string $className, ?string $name = null, ?string $type = null)
     {
-        $this->reader = new Reader($className, $name, $type);
+        if ($name === null && $type === null)
+        {
+            $this->reader = new Reader($className);
+        }
+        else
+        {
+            $this->reader = new Reader($className, $name, $type);
+        }
     }
 
     /**
