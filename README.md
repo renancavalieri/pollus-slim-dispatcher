@@ -66,7 +66,7 @@ Também é possível especificar um controller ou método manualmente. O exemplo
  */
 $app->any('/', function ($request, $response, $args) use ($dispatcher)
 {
-    return $mvc
+    return $dispatcher
         ->setController("home")
         ->setMethod("index")
         ->prepare($request, $response, $args)
